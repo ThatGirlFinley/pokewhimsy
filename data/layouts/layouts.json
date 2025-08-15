@@ -4380,6 +4380,90 @@
       "secondary_tileset": "gTileset_MtEmber",
       "border_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa/border.bin",
       "blockdata_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa/map.bin"
+    },
+    {
+      "id": "LAYOUT_TOWN_NEW_BLOSSOM",
+      "name": "Town_NewBlossom",
+      "width": 40,
+      "height": 30,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_PalletTown",
+      "border_filepath": "data/layouts/Town_NewBlossom/border.bin",
+      "blockdata_filepath": "data/layouts/Town_NewBlossom/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BLOSSOM_POKEMON_CENTER",
+      "name": "NewBlossom_PokemonCenter_Layout",
+      "width": 15,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/NewBlossom_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/NewBlossom_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BLOSSOM_MART",
+      "name": "NewBlossom_Mart_Layout",
+      "width": 11,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Mart",
+      "border_filepath": "data/layouts/NewBlossom_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/NewBlossom_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BLOSSOM_PLAYERS_HOUSE_1F",
+      "name": "NewBlossom_PlayersHouse_1F_Layout",
+      "width": 13,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding1",
+      "border_filepath": "data/layouts/NewBlossom_PlayersHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/NewBlossom_PlayersHouse_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BLOSSOM_PLAYERS_HOUSE_2F",
+      "name": "NewBlossom_PlayersHouse_2F_Layout",
+      "width": 11,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding1",
+      "border_filepath": "data/layouts/NewBlossom_PlayersHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/NewBlossom_PlayersHouse_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BLOSSOM_PROFESSOR_OAK_LAB",
+      "name": "NewBlossom_ProfessorOakLab_Layout",
+      "width": 13,
+      "height": 14,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/NewBlossom_ProfessorOakLab/border.bin",
+      "blockdata_filepath": "data/layouts/NewBlossom_ProfessorOakLab/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BLOSSOM_RIVALS_HOUSE",
+      "name": "NewBlossom_RivalsHouse_Layout",
+      "width": 13,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding2",
+      "border_filepath": "data/layouts/NewBlossom_RivalsHouse/border.bin",
+      "blockdata_filepath": "data/layouts/NewBlossom_RivalsHouse/map.bin"
     }
   ]
 }

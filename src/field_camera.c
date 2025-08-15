@@ -278,10 +278,10 @@ static void DrawMetatile(s32 metatileLayerType, const u16 *tiles, u16 offset)
         gBGTilemapBuffers1[offset + 0x21] = tiles[7];
 
         // Draw transparent tiles to the top background layer.
-        gBGTilemapBuffers2[offset] = 0;
-        gBGTilemapBuffers2[offset + 1] = 0;
-        gBGTilemapBuffers2[offset + 0x20] = 0;
-        gBGTilemapBuffers2[offset + 0x21] = 0;
+        gBGTilemapBuffers2[offset] = tiles[8];
+        gBGTilemapBuffers2[offset + 1] = tiles[9];
+        gBGTilemapBuffers2[offset + 0x20] = tiles[10];
+        gBGTilemapBuffers2[offset + 0x21] = tiles[11];
         break;
     case METATILE_LAYER_TYPE_NORMAL:
         // Draw garbage to the bottom background layer.

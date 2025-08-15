@@ -1369,3 +1369,24 @@ Text_TestMsg::
 	.include "data/text/pokedude.inc"
 	.include "data/scripts/follower.inc"
 	.include "data/scripts/dexnav.inc"
+
+	.include "data/maps/NewBlossom/scripts.inc"
+	.include "data/maps/NewBlossom/text.inc"
+
+	.include "data/maps/NewBlossom_PokemonCenter/scripts.inc"
+	.include "data/maps/NewBlossom_PokemonCenter/text.inc"
+
+	.include "data/maps/NewBlossom_Mart/scripts.inc"
+	.include "data/maps/NewBlossom_Mart/text.inc"
+
+	.include "data/maps/NewBlossom_PlayersHouse_1F/scripts.inc"
+	.include "data/maps/NewBlossom_PlayersHouse_1F/text.inc"
+
+	.include "data/maps/NewBlossom_PlayersHouse_2F/scripts.inc"
+	.include "data/maps/NewBlossom_PlayersHouse_2F/text.inc"
+
+	.include "data/maps/NewBlossom_ProfessorOakLab/scripts.inc"
+	.include "data/maps/NewBlossom_ProfessorOakLab/text.inc"
+
+	.include "data/maps/NewBlossom_RivalsHouse/scripts.inc"
+	.include "data/maps/NewBlossom_RivalsHouse/text.inc"
