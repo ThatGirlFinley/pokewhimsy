@@ -386,7 +386,7 @@ If this works, then proceed to [Installation](#installation). Otherwise, ask for
 1. If pokefirered is not already downloaded (some users may prefer to download pokefirered via a git client like GitHub Desktop), run:
 
     ```bash
-    git clone https://github.com/pret/pokefirered
+    git clone --recursive https://github.com/pret/pokefirered
     ```
 
     <details>
@@ -589,6 +589,20 @@ The following is an example:
 make TOOLCHAIN="/usr/local/arm-none-eabi"
 ```
 To compile the `modern` target with this toolchain, the subdirectories `lib`, `include`, and `arm-none-eabi` must also be present.
+
+# Updating poryscript
+
+To update poryscript within the repo use the following commands
+
+```bash
+cd tools/poryscript
+git fetch
+git checkout REF # REF can be a version tag, a branch, or a commit hash
+cd -
+git add tools/poryscript
+git commit
+git push
+```
 
 # Useful additional tools
 
