@@ -4388,8 +4388,8 @@
       "height": 30,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_PalletTown",
+      "primary_tileset": "gTileset_GeneralWinter",
+      "secondary_tileset": "gTileset_PalletTownWinter",
       "border_filepath": "data/layouts/Town_NewBlossom/border.bin",
       "blockdata_filepath": "data/layouts/Town_NewBlossom/map.bin"
     },
@@ -4545,7 +4545,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_PewterCity",
+      "secondary_tileset": "gTileset_PalletTown",
       "border_filepath": "data/layouts/Route01/border.bin",
       "blockdata_filepath": "data/layouts/Route01/map.bin"
     },

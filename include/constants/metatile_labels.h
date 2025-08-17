@@ -2,8 +2,9 @@
 #define GUARD_METATILE_LABELS_H
 
 // gTileset_Building
-#define METATILE_Building_PCOff  0x062
-#define METATILE_Building_PCOn   0x063
+#define METATILE_Building_Door_Mid_Open  0x247
+#define METATILE_Building_PCOff          0x062
+#define METATILE_Building_PCOn           0x063
 
 // gTileset_Cave
 #define METATILE_Cave_Floor_Ledge_Bottom  0x2E1
@@ -122,15 +123,14 @@
 #define METATILE_PokemonCenter_NetworkMachine_ScreenRight_On         0x35B
 
 // gTileset_PokemonLeague
-#define METATILE_PokemonLeague_Door_Mid_Open             0x296
-#define METATILE_PokemonLeague_Door_Top_Open             0x28E
-#define METATILE_PokemonLeague_Entry_BottomLeft_Closed   0x2A5
-#define METATILE_PokemonLeague_Entry_BottomMid_Closed    0x2A6
-#define METATILE_PokemonLeague_Entry_BottomRight_Closed  0x2A7
-#define METATILE_PokemonLeague_Entry_TopLeft_Closed      0x29D
-#define METATILE_PokemonLeague_Entry_TopMid_Closed       0x29E
-#define METATILE_PokemonLeague_Entry_TopRight_Closed     0x29F
-#define METATILE_PokemonLeague_Floor_ShadeFull_Lance     0x311
+#define METATILE_PokemonLeague_Door_Top_Open             0x283
+#define METATILE_PokemonLeague_Entry_BottomLeft_Closed   0x292
+#define METATILE_PokemonLeague_Entry_BottomMid_Closed    0x293
+#define METATILE_PokemonLeague_Entry_BottomRight_Closed  0x294
+#define METATILE_PokemonLeague_Entry_TopLeft_Closed      0x28A
+#define METATILE_PokemonLeague_Entry_TopMid_Closed       0x28B
+#define METATILE_PokemonLeague_Entry_TopRight_Closed     0x28C
+#define METATILE_PokemonLeague_Floor_ShadeFull_Lance     0x29A
 
 // gTileset_PokemonMansion
 #define METATILE_PokemonMansion_Barrier_Horizontal_BottomLeft            0x300
