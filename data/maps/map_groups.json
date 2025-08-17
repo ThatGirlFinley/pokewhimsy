@@ -43,7 +43,10 @@
     "gMapGroup_IndoorTwoIslandRoute",
     "gMapGroup_IndoorSixIslandRoute",
     "gMapGroup_IndoorSevenIslandRoute",
-    "gMapGroup_TownNewBlossom"
+    "gMapGroup_TownNewBlossom",
+    "gMapGroup_GloombeanGrove",
+    "gMapGroup_Route01",
+    "gMapGroup_SproutSapCity"
   ],
   "gMapGroup_Link": [
     "BattleColosseum_2P",
@@ -563,6 +566,21 @@
     "NewBlossom_PlayersHouse_1F",
     "NewBlossom_PlayersHouse_2F",
     "NewBlossom_ProfessorOakLab",
-    "NewBlossom_RivalsHouse"
+    "NewBlossom_RivalsHouse",
+    "NewBlossom_CommunityCenter"
+  ],
+  "gMapGroup_GloombeanGrove": [
+    "GloombeanGrove",
+    "GloombeanGrove_GatewayNorth",
+    "GloombeanGrove_GatewaySouth",
+    "GloombeanGrove_GatewaySouth_2F",
+    "GloombeanGrove_House"
+  ],
+  "gMapGroup_Route01": [
+    "Route01"
+  ],
+  "gMapGroup_SproutSapCity": [
+    "SproutSapCity",
+    "SproutSapCity_GatewayNorth"
   ]
 }

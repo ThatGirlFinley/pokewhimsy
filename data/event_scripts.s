@@ -1390,3 +1390,30 @@ Text_TestMsg::
 
 	.include "data/maps/NewBlossom_RivalsHouse/scripts.inc"
 	.include "data/maps/NewBlossom_RivalsHouse/text.inc"
+
+	.include "data/maps/GloombeanGrove/scripts.inc"
+	.include "data/maps/GloombeanGrove/text.inc"
+
+	.include "data/maps/GloombeanGrove_GatewayNorth/scripts.inc"
+	.include "data/maps/GloombeanGrove_GatewayNorth/text.inc"
+
+	.include "data/maps/GloombeanGrove_GatewaySouth/scripts.inc"
+	.include "data/maps/GloombeanGrove_GatewaySouth/text.inc"
+
+	.include "data/maps/GloombeanGrove_GatewaySouth_2F/scripts.inc"
+	.include "data/maps/GloombeanGrove_GatewaySouth_2F/text.inc"
+
+	.include "data/maps/NewBlossom_CommunityCenter/scripts.inc"
+	.include "data/maps/NewBlossom_CommunityCenter/text.inc"
+
+	.include "data/maps/GloombeanGrove_House/scripts.inc"
+	.include "data/maps/GloombeanGrove_House/text.inc"
+
+	.include "data/maps/Route01/scripts.inc"
+	.include "data/maps/Route01/text.inc"
+
+	.include "data/maps/SproutSapCity/scripts.inc"
+	.include "data/maps/SproutSapCity/text.inc"
+
+	.include "data/maps/SproutSapCity_GatewayNorth/scripts.inc"
+	.include "data/maps/SproutSapCity_GatewayNorth/text.inc"

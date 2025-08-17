@@ -4464,6 +4464,114 @@
       "secondary_tileset": "gTileset_GenericBuilding2",
       "border_filepath": "data/layouts/NewBlossom_RivalsHouse/border.bin",
       "blockdata_filepath": "data/layouts/NewBlossom_RivalsHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_GLOOMBEAN_GROVE",
+      "name": "GloombeanGrove_Layout",
+      "width": 60,
+      "height": 40,
+      "border_width": 3,
+      "border_height": 4,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_ViridianForest",
+      "border_filepath": "data/layouts/GloombeanGrove/border.bin",
+      "blockdata_filepath": "data/layouts/GloombeanGrove/map.bin"
+    },
+    {
+      "id": "LAYOUT_GLOOMBEAN_GROVE_GATEWAY_NORTH",
+      "name": "GloombeanGrove_GatewayNorth_Layout",
+      "width": 15,
+      "height": 12,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding2",
+      "border_filepath": "data/layouts/GloombeanGrove_GatewayNorth/border.bin",
+      "blockdata_filepath": "data/layouts/GloombeanGrove_GatewayNorth/map.bin"
+    },
+    {
+      "id": "LAYOUT_GLOOMBEAN_GROVE_GATEWAY_SOUTH",
+      "name": "GloombeanGrove_GatewaySouth_Layout",
+      "width": 15,
+      "height": 12,
+      "border_width": 3,
+      "border_height": 4,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding2",
+      "border_filepath": "data/layouts/GloombeanGrove_GatewaySouth/border.bin",
+      "blockdata_filepath": "data/layouts/GloombeanGrove_GatewaySouth/map.bin"
+    },
+    {
+      "id": "LAYOUT_GLOOMBEAN_GROVE_GATEWAY_SOUTH_2F",
+      "name": "GloombeanGrove_GatewaySouth_2F_Layout",
+      "width": 13,
+      "height": 11,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding2",
+      "border_filepath": "data/layouts/GloombeanGrove_GatewaySouth_2F/border.bin",
+      "blockdata_filepath": "data/layouts/GloombeanGrove_GatewaySouth_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_BLOSSOM_COMMUNITY_CENTER",
+      "name": "NewBlossom_CommunityCenter_Layout",
+      "width": 12,
+      "height": 12,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_FanClubDaycare",
+      "border_filepath": "data/layouts/NewBlossom_CommunityCenter/border.bin",
+      "blockdata_filepath": "data/layouts/NewBlossom_CommunityCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_GLOOMBEAN_GROVE_HOUSE",
+      "name": "GloombeanGrove_House_Layout",
+      "width": 11,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding1",
+      "border_filepath": "data/layouts/GloombeanGrove_House/border.bin",
+      "blockdata_filepath": "data/layouts/GloombeanGrove_House/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE01",
+      "name": "Route01_Layout",
+      "width": 45,
+      "height": 30,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_PewterCity",
+      "border_filepath": "data/layouts/Route01/border.bin",
+      "blockdata_filepath": "data/layouts/Route01/map.bin"
+    },
+    {
+      "id": "LAYOUT_SPROUT_SAP_CITY",
+      "name": "SproutSapCity_Layout",
+      "width": 45,
+      "height": 49,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_PewterCity",
+      "border_filepath": "data/layouts/SproutSapCity/border.bin",
+      "blockdata_filepath": "data/layouts/SproutSapCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_SPROUT_SAP_CITY_GATEWAY_NORTH",
+      "name": "SproutSapCity_GatewayNorth_Layout",
+      "width": 13,
+      "height": 15,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding2",
+      "border_filepath": "data/layouts/SproutSapCity_GatewayNorth/border.bin",
+      "blockdata_filepath": "data/layouts/SproutSapCity_GatewayNorth/map.bin"
     }
   ]
 }
