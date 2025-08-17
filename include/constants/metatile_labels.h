@@ -123,6 +123,7 @@
 #define METATILE_PokemonCenter_NetworkMachine_ScreenRight_On         0x35B
 
 // gTileset_PokemonLeague
+#define METATILE_PokemonLeague_Door_Mid_Open             0x247
 #define METATILE_PokemonLeague_Door_Top_Open             0x283
 #define METATILE_PokemonLeague_Entry_BottomLeft_Closed   0x292
 #define METATILE_PokemonLeague_Entry_BottomMid_Closed    0x293
