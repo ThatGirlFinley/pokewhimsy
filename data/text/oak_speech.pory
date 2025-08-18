@@ -27,7 +27,7 @@ text OakIntroSpeech_Unsure{
 }
 
 text OakIntroSpeech_Queer{
-    format("That's splendid!\pI’m sure you’ll have an amazing time living and aventuring here then!\pSo, what should I call you?\l", fontId="1_latin_frlg")
+    format("That's splendid!\pI’m sure you’ll have an amazing time living and adventuring here then!\pSo, what should I call you?\l", fontId="1_latin_frlg")
 }
 
 text OakIntroSpeech_Part7{
@@ -43,9 +43,9 @@ text OakIntroSpeech_GrandchildNameWrong{
 }
 
 text OakIntroSpeech_GrandchildNameRight{
-    format("Yes, that sounds right.\n Their name is {RIVAL}.\l", fontId="1_latin_frlg")
+    format("Yes, that sounds right.\n Their name is {RIVAL}.\pI think the two of you could become great friends.\l", fontId="1_latin_frlg")
 }
 
 text OakIntroSpeech_Part9{
-    format("{PLAYER}, I’m sure you’re eager to start your new life here.\pI won’t keep you any longer. If you stop by my lab when you get a chance, I’ll give you a partner pokémon to help get you started.\pSee you later!\l", fontId="1_latin_frlg")
+    format("Alright, I’m sure you’re eager to\nstart your new life here.\pIf you stop by my lab later, I’ll give you your very own pokémon.\pI'm sure the two of you will become a fabulous team someday.\pOk, I won't keep you any longer. See you later {PLAYER}!\pGood luck on your adventures!\l", fontId="1_latin_frlg")
 }
