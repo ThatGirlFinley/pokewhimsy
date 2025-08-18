@@ -1165,7 +1165,7 @@ static void Task_OakSpeech_WelcomeToTheWorld(u8 taskId)
         }
         else
         {
-            OakSpeechPrintMessage(gOakSpeech_Text_WelcomeToTheWorld, sOakSpeechResources->textSpeed, FALSE);
+            OakSpeechPrintMessage(OakIntroSpeech_Part1, sOakSpeechResources->textSpeed, FALSE);
             gTasks[taskId].func = Task_OakSpeech_ThisWorld;
         }
     }
@@ -1175,7 +1175,7 @@ static void Task_OakSpeech_ThisWorld(u8 taskId)
 {
     if (!IsTextPrinterActive(WIN_INTRO_TEXTBOX))
     {
-        OakSpeechPrintMessage(gOakSpeech_Text_ThisWorld, sOakSpeechResources->textSpeed, FALSE);
+        OakSpeechPrintMessage(OakIntroSpeech_Part2, sOakSpeechResources->textSpeed, FALSE);
         gTasks[taskId].tTimer = 30;
         gTasks[taskId].func = Task_OakSpeech_ReleaseNidoranFFromPokeBall;
     }
@@ -1211,7 +1211,7 @@ static void Task_OakSpeech_IsInhabitedFarAndWide(u8 taskId)
         gTasks[taskId].tTimer++;
         if (gTasks[taskId].tTimer == 32)
         {
-            OakSpeechPrintMessage(gOakSpeech_Text_IsInhabitedFarAndWide, sOakSpeechResources->textSpeed, FALSE);
+            OakSpeechPrintMessage(OakIntroSpeech_Part3, sOakSpeechResources->textSpeed, FALSE);
             PlayCry_Normal(INTRO_SPECIES, 0);
         }
     }
@@ -1221,7 +1221,7 @@ static void Task_OakSpeech_IStudyPokemon(u8 taskId)
 {
     if (!IsTextPrinterActive(WIN_INTRO_TEXTBOX))
     {
-        OakSpeechPrintMessage(gOakSpeech_Text_IStudyPokemon, sOakSpeechResources->textSpeed, FALSE);
+        OakSpeechPrintMessage(OakIntroSpeech_Part4, sOakSpeechResources->textSpeed, FALSE);
         gTasks[taskId].func = Task_OakSpeech_ReturnNidoranFToPokeBall;
     }
 }
@@ -1264,7 +1264,7 @@ static void Task_OakSpeech_TellMeALittleAboutYourself(u8 taskId)
         }
         else
         {
-            OakSpeechPrintMessage(gOakSpeech_Text_TellMeALittleAboutYourself, sOakSpeechResources->textSpeed, FALSE);
+            OakSpeechPrintMessage(OakIntroSpeech_Part5, sOakSpeechResources->textSpeed, FALSE);
             gTasks[taskId].func = Task_OakSpeech_FadeOutOak;
         }
     }
@@ -1297,7 +1297,7 @@ static void Task_OakSpeech_AskPlayerGender(u8 taskId)
         {
             tTrainerPicPosX = -60;
             ClearTrainerPic();
-            OakSpeechPrintMessage(gOakSpeech_Text_AskPlayerGender, sOakSpeechResources->textSpeed, FALSE);
+            OakSpeechPrintMessage(OakIntroSpeech_Part6, sOakSpeechResources->textSpeed, FALSE);
             gTasks[taskId].func = Task_OakSpeech_ShowGenderOptions;
         }
     }
@@ -1380,7 +1380,11 @@ static void Task_OakSpeech_YourNameWhatIsIt(u8 taskId)
         else
         {
             tTrainerPicPosX = 0;
-            OakSpeechPrintMessage(gOakSpeech_Text_YourNameWhatIsIt, sOakSpeechResources->textSpeed, FALSE);
+            if (gSaveBlock2Ptr->playerGender == MALE){
+                OakSpeechPrintMessage(OakIntroSpeech_Unsure, sOakSpeechResources->textSpeed, FALSE);
+            } else {
+                OakSpeechPrintMessage(OakIntroSpeech_Queer, sOakSpeechResources->textSpeed, FALSE);
+            }
             gTasks[taskId].func = Task_OakSpeech_FadeOutForPlayerNamingScreen;
         }
     }
@@ -1423,7 +1427,7 @@ static void Task_OakSpeech_RepeatNameQuestion(u8 taskId)
     if (sOakSpeechResources->hasPlayerBeenNamed == FALSE)
         OakSpeechPrintMessage(gOakSpeech_Text_YourNameWhatIsIt, 0, FALSE);
     else
-        OakSpeechPrintMessage(gOakSpeech_Text_YourRivalsNameWhatWasIt, 0, FALSE);
+        OakSpeechPrintMessage(OakIntroSpeech_GrandchildNameWrong, 0, FALSE);
     gTasks[taskId].func = Task_OakSpeech_HandleRivalNameInput;
 }
 
@@ -1484,7 +1488,7 @@ static void Task_OakSpeech_ConfirmName(u8 taskId)
         if (tNameNotConfirmed == TRUE)
         {
             if (sOakSpeechResources->hasPlayerBeenNamed == FALSE)
-                StringExpandPlaceholders(gStringVar4, gOakSpeech_Text_SoYourNameIsPlayer);
+                StringExpandPlaceholders(gStringVar4, OakIntroSpeech_Part7);
             else
                 StringExpandPlaceholders(gStringVar4, gOakSpeech_Text_ConfirmRivalName);
             OakSpeechPrintMessage(gStringVar4, sOakSpeechResources->textSpeed, TRUE);
@@ -1522,7 +1526,7 @@ static void Task_OakSpeech_HandleConfirmNameInput(u8 taskId)
         }
         else
         {
-            StringExpandPlaceholders(gStringVar4, gOakSpeech_Text_RememberRivalsName);
+            StringExpandPlaceholders(gStringVar4, OakIntroSpeech_GrandchildNameRight);
             OakSpeechPrintMessage(gStringVar4, sOakSpeechResources->textSpeed, TRUE);
             gTasks[taskId].func = Task_OakSpeech_FadeOutRivalPic;
         }
@@ -1578,7 +1582,7 @@ static void Task_OakSpeech_AskRivalsName(u8 taskId)
 
     if (tTrainerPicFadeState != 0)
     {
-        OakSpeechPrintMessage(gOakSpeech_Text_WhatWasHisName, sOakSpeechResources->textSpeed, FALSE);
+        OakSpeechPrintMessage(OakIntroSpeech_Part8, sOakSpeechResources->textSpeed, FALSE);
         sOakSpeechResources->hasPlayerBeenNamed = TRUE;
         gTasks[taskId].func = Task_OakSpeech_MoveRivalDisplayNameOptions;
     }
@@ -1614,7 +1618,7 @@ static void Task_OakSpeech_LetsGo(u8 taskId)
 {
     if (gTasks[taskId].tTrainerPicFadeState != 0)
     {
-        StringExpandPlaceholders(gStringVar4, gOakSpeech_Text_LetsGo);
+        StringExpandPlaceholders(gStringVar4, OakIntroSpeech_Part9);
         OakSpeechPrintMessage(gStringVar4, sOakSpeechResources->textSpeed, TRUE);
         gTasks[taskId].tTimer = 30;
         gTasks[taskId].func = Task_OakSpeech_FadeOutBGM;

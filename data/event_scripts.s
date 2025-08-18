@@ -1361,6 +1361,7 @@ Text_TestMsg::
 	.include "data/text/flavor_text.inc"
 	.include "data/scripts/hole.inc"
 	.include "data/text/trainers.inc"
+	.include "data/text/oak_speech.inc"
 	.include "data/scripts/move_tutors.inc"
 	.include "data/scripts/trainer_tower.inc"
 	.include "data/scripts/test.inc"

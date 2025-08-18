@@ -1,0 +1,51 @@
+text OakIntroSpeech_Part1{
+    format("Hello, there! Welcome to Sapphica!\pThe queer capital of the Pokémon\nWorld!\l", fontId="1_latin_frlg")
+}
+
+text OakIntroSpeech_Part2{
+    format("This region is teeming with a wide plethora of pokémon and people...\l", fontId="1_latin_frlg")
+}
+
+text OakIntroSpeech_Part3{
+    format("You may have heard of me. I’m\nProfessor Oak, a pokémon researcher.\l", fontId="1_latin_frlg")
+}
+
+text OakIntroSpeech_Part4{
+    format("I’ve come all the way from Kanto to discover what attracts so many different types of pokémon to this rather fascinating region.\pNow then...\l", fontId="1_latin_frlg")
+}
+
+text OakIntroSpeech_Part5{
+    format("We'll be neighbors soon so...\pWhy don't you tell me a little about yourself?\l", fontId="1_latin_frlg")
+}
+
+text OakIntroSpeech_Part6{
+    format("What kind of person are you?", fontId="1_latin_frlg")
+}
+
+text OakIntroSpeech_Unsure{
+    format("Oh, really?\pWell, hopefully living here will give you a chance to figure things out...\pSo, what should I call you?\l", fontId="1_latin_frlg")
+}
+
+text OakIntroSpeech_Queer{
+    format("That's splendid!\pI’m sure you’ll have an amazing time living and aventuring here then!\pSo, what should I call you?\l", fontId="1_latin_frlg")
+}
+
+text OakIntroSpeech_Part7{
+    format("Oh, that fits you nicely.\pSo your name is {PLAYER}?", fontId="1_latin_frlg")
+}
+
+text OakIntroSpeech_Part8{
+    format("This is my grandchild.\lThey've been going through a lot\nlately...\pI feel awful but I can't quite remember what name they're using...\pI think their name is...", fontId="1_latin_frlg")
+}
+
+text OakIntroSpeech_GrandchildNameWrong{
+    format("No that's not right.\nI think their name is actually...", fontId="1_latin_frlg")
+}
+
+text OakIntroSpeech_GrandchildNameRight{
+    format("Yes, that sounds right.\n Their name is {RIVAL}.\l", fontId="1_latin_frlg")
+}
+
+text OakIntroSpeech_Part9{
+    format("{PLAYER}, I’m sure you’re eager to start your new life here.\pI won’t keep you any longer. If you stop by my lab when you get a chance, I’ll give you a partner pokémon to help get you started.\pSee you later!\l", fontId="1_latin_frlg")
+}

@@ -2,7 +2,7 @@ gOtherText_NewName::
     .string "NEW NAME$"
 
 gNameChoice_Green::
-    .string "GREEN$"
+    .string "SHIMMER$"
 
 gNameChoice_Red::
     .string "RED$"
@@ -14,13 +14,13 @@ gNameChoice_Fire::
     .string "FIRE$"
 
 gNameChoice_Gary::
-    .string "GARY$"
+    .string "GLOOMY$"
 
 gNameChoice_Kaz::
-    .string "KAZ$"
+    .string "T-BONE$"
 
 gNameChoice_Toru::
-    .string "TORU$"
+    .string "PEBBLE$"
 
 gNameChoice_Ash::
     .string "ASH$"
