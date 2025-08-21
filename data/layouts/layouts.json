@@ -4388,8 +4388,8 @@
       "height": 30,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_GeneralWinter",
-      "secondary_tileset": "gTileset_PalletTownWinter",
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_PalletTown",
       "border_filepath": "data/layouts/Town_NewBlossom/border.bin",
       "blockdata_filepath": "data/layouts/Town_NewBlossom/map.bin"
     },
@@ -4552,8 +4552,8 @@
     {
       "id": "LAYOUT_SPROUT_SAP_CITY",
       "name": "SproutSapCity_Layout",
-      "width": 45,
-      "height": 49,
+      "width": 60,
+      "height": 59,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",

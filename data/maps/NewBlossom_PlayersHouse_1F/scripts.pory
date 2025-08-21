@@ -1,1 +1,43 @@
-mapscripts NewBlossom_PlayersHouse_1F_MapScripts {}
+mapscripts NewBlossom_PlayersHouse_1F_MapScripts {
+    MAP_SCRIPT_ON_FRAME_TABLE [
+        VAR_MAP_SCENE_PLAYER_HOUSE_1F, 0: MomGivesPlayerRunningShoes
+    ]
+}
+
+script Mom{
+}
+
+script MomGivesPlayerRunningShoes{
+    lock
+    playse(SE_PIN)
+    applymovement(1, Mom_Surprised)
+    waitmovement
+    applymovement (1, Mom_MeetPlayer)
+    waitmovement
+    msgbox(format("{PLAYER}, you're awake!\lYou should hurry to Professor Oak's\nlab.\pYou were supposed to go there yesterday to collect your first pokémon!\pI can't believe you ended up playing those silly videogames all afternoon instead.\lWell it can't be helped.\pHere you'll need this if you want to\nget there quickly.\pHopefully there are still some\npokémon left."))
+    waitmessage
+    playfanfare(MUS_OBTAIN_KEY_ITEM)
+    giveitem(ITEM_BICYCLE)
+    waitmessage
+    msgbox(format("Now get going!\pI can't wait to see which pokémon you end up with!\pGood luck sweetie!"))
+    waitmessage
+    applymovement (1, Mom_LeavePlayer)
+    waitmovement
+    release
+    setvar(VAR_MAP_SCENE_PLAYER_HOUSE_1F, 1)
+}
+
+movement Mom_Surprised{
+    emote_exclamation_mark
+}
+
+movement Mom_MeetPlayer{
+    walk_fast_up*2
+    walk_fast_right
+}
+
+movement Mom_LeavePlayer{
+    walk_fast_left
+    walk_fast_down*2
+    face_left
+}
